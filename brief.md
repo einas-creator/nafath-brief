@@ -32,9 +32,9 @@ Anonymization irreversibly alters data so the data subject cannot be identified,
 Resource: Interventions on Anonymisation and Pseudonymisation by the European Data Protection Board - https://europa.eu
 
 
-Commit directly to the main branch
 ## Misconception in My Track
-
+A common technical misconception in data engineering is that pseudonymized chat logs are completely anonymized and exempt from strict data privacy regulations. In reality, pseudonymized data is explicitly classified as personal data because individuals can still be re-identified by combining the logs with separate key information. The European Data Protection Board confirms this under the heading "3.1 Pseudonymisation vs Anonymisation" stating that pseudonymisation is merely a security measure, whereas anonymisation requires removing all identifiers so uniquely identifying a person is completely impossible.
 
 ## Open Question
+I would next verify how our infrastructure securely stores the cryptographic keys used to reverse pseudonymized logs, and whether these access controls meet national compliance criteria.
 
