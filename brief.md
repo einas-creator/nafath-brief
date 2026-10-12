@@ -20,12 +20,17 @@ Resource: Apple Developer Documentation - Prevent Unencrypted Network Connection
 
 
 ## Networking
-
+IPv6 utilizes 128-bit addresses, offering an exponentially larger address space compared to the 32-bit architecture of IPv4. This massive expansion is critical as connected mobile registries grow, eliminating the dependence on complex Network Address Translation protocols and providing unique global IP addresses to ensure seamless cross-device communication.
+Resource: RFC 9000 - QUIC: A UDP-Based Multiplexed and Secure Transport - https://rfc-editor.org
 
 ## Cybersecurity
-
+Prompt injection occurs when malicious inputs manipulate a language model's behavior. Direct injection happens when a user explicitly instructs the chatbot to bypass restrictions. Indirect injection occurs when the model processes poisoned external data. Security teams reduce this risk through strict input sanitization and using isolated system prompts.
+Resource: NIST AI 100-2E - Adversarial Machine Learning - https://nist.gov
 
 ## Data
+Anonymization irreversibly alters data so the data subject cannot be identified, while pseudonymization replaces direct identifiers with artificial identifiers, allowing re-identification using separate cryptographic keys. Anonymization takes the information entirely outside the scope of data protection law because the records can no longer be traced to individuals.
+Resource: Interventions on Anonymisation and Pseudonymisation by the European Data Protection Board - https://europa.eu
+
 
 Commit directly to the main branch
 ## Misconception in My Track
